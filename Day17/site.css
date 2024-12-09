@@ -1,0 +1,63 @@
+body{
+    margin: auto;
+    padding: 0px;}
+.header{
+    background-image: url(https://preview.colorlib.com/theme/course/images/slider_background.jpg.webp);
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    width: 100%;
+
+}
+.nav{
+    margin: 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 104px;
+}
+ul.name{
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    display: flex;
+    flex-direction: row; 
+    color: #3a3a3a;
+}
+
+div.logo{
+    display: flex;
+    flex-direction: row;
+    width: 177.641px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 76px;
+}
+div.logo>img{
+    width: 51px;
+    height: 43px;
+}
+div.title{
+    padding-right: 93px;
+    margin-left: 119.562px;
+}
+
+.ol{
+    padding: 0px;
+    margin: 0px;
+
+}
+div.logo>p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    color: #3a3a3a;
+    padding-left: 3px;
+}
+div.contact{
+    background-color: #ffb606;
+    width: 219px;
+    height: 104px;
+}
