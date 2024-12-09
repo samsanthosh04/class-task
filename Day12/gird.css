@@ -1,0 +1,26 @@
+.main{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+
+
+}
+
+div{
+    border: 2px solid red;
+    padding: 20px;
+}
+
+
+.box1{
+    grid-row-start: 1;
+    grid-row-end: 6;
+}
+.box2{
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.box5{
+    grid-column-start: 2;
+    grid-column-end: 5;
+}

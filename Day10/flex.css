@@ -1,0 +1,25 @@
+.main_container{
+    display: flex;
+    flex-direction: column;
+    flex-direction: row-reverse;
+    flex-direction: column-reverse;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    align-items: flex-end;
+    align-items: flex-start;
+    justify-content: center;
+    justify-content: space-around;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-wrap: wrap;
+    height: 800px;
+    /* width: 800px; */
+    border: 2px solid red;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    border: 2px solid red; 
+}

@@ -1,0 +1,31 @@
+button {
+    background-color: aqua;
+    border-color: rgb(0, 26, 255);
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:active {
+    background-color: rgb(216, 150, 6);
+
+}
+
+a:link {
+    color: brown;
+}
+
+a:visited {
+    color: rgb(42, 61, 165);
+
+}
+
+a:hover {
+    color: rgb(37, 170, 32);
+
+}
+
+a:active {
+    color: rgb(20, 12, 0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}

@@ -1,0 +1,25 @@
+.new {
+    margin: auto;
+    height: 570px;
+    width: 500px;
+    border: 2px solid rgb(179, 61, 61);
+    padding: 15px;
+}
+img{
+    display:block;
+    margin: auto;
+    width: 90px;
+    height: 30px;
+}
+
+button{
+    display:block;
+    margin: auto;
+    border: 1px solid rgb(233, 156, 55);
+    background-color: rgb(233, 156, 55);
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 150px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+}

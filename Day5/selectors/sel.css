@@ -1,0 +1,28 @@
+p {
+    color: brown;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.new {
+    color: rgb(241, 151, 32);
+    font-style: normal;
+}
+
+#old {
+    font-size: large;
+    font-size: 20px;
+    font-weight: 900;
+    color: chartreuse;
+}
+
+p,
+.new,
+#old {
+    color: crimson;
+}
+
+* {
+    background-color: cadetblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
