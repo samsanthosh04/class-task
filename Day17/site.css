@@ -1,14 +1,26 @@
 body{
     margin: auto;
     padding: 0px;}
+    
 .header{
     background-image: url(https://preview.colorlib.com/theme/course/images/slider_background.jpg.webp);
     display: flex;
     justify-content: center;
     background-repeat: no-repeat;
-    width: 100%;
-
+    background-size: cover;
+    flex-direction: column;
+    align-items: center;
+    height: 800px;
 }
+ol{
+    padding: 0px;
+}
+
+.icon1>img{
+    width: 29px;
+    height: 29px;
+}
+
 .nav{
     margin: 45px;
     display: flex;
@@ -17,6 +29,8 @@ body{
     align-items: center;
     background-color: white;
     height: 104px;
+    width: 1300px;
+
 }
 ul.name{
     font-family: "Open Sans", sans-serif;
@@ -24,7 +38,11 @@ ul.name{
     font-weight: 700;
     display: flex;
     flex-direction: row; 
+    align-content: space-between;
     color: #3a3a3a;
+    margin: 0px;
+    padding: 0px;
+    justify-content: space-around;
 }
 
 div.logo{
@@ -41,14 +59,10 @@ div.logo>img{
 }
 div.title{
     padding-right: 93px;
-    margin-left: 119.562px;
+    margin-left: 119.531px;
+    width: 572.781px;
 }
 
-.ol{
-    padding: 0px;
-    margin: 0px;
-
-}
 div.logo>p{
     font-family: "Open Sans", sans-serif;
     font-size: 30px;
@@ -60,4 +74,140 @@ div.contact{
     background-color: #ffb606;
     width: 219px;
     height: 104px;
+}
+.phonenumber>p>a{
+    text-decoration: none;
+    width: 166.716px;
+    padding-left: 12px;
+    font-family: "Roboto", serif;
+    font-weight: 500;
+      font-size: 18px;
+    color: white;
+}
+.contact{
+    width: 279px;
+    display: flex;
+    align-items: center;   
+    justify-content: center; 
+    padding: 0px 30px;
+}
+.navmid{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;  
+    width: 85%;  
+}
+.navmid>div>button{
+    border: none;
+    background-color: white;
+    padding: 20px 15px;
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    font-size: 12px;
+
+}
+
+.navmid >.text{
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-size: 72px;
+    color: white;
+    padding: 50px 0px;
+}
+.navmid >.text>span{
+    color: white;
+    background-color: #ffb606; 
+}
+.navlast>.box1{
+    width: 300px;
+    padding-right: 50px;
+    height: 161px;
+    background-color: #1a1a1a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navlast>.box1>.left>img{
+    width: 62px;
+    height: 62px;
+    padding-right: 13px;
+}
+.navlast>.box1>.right>.head{
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: white;
+    margin: 0px;
+}
+.navlast>.box1>.right>.text{
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    font-size: 12px;
+    margin-top: 12px;
+    color: white;
+}
+
+.navlast>.box2{
+    width: 300px;
+    padding-right: 50px;
+    height: 161px;
+    background-color: #1a1a1a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navlast>.box2>.left>img{
+    width: 62px;
+    height: 62px;
+    padding-right: 13px;
+}
+.navlast>.box2>.right>.head{
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: white;
+    margin: 0px;
+}
+.navlast>.box2>.right>.text{
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    font-size: 12px;
+    margin-top: 12px;
+    color: white;
+}
+.navlast>.box3{
+    width: 300px;
+    padding-right: 50px;
+    height: 161px;
+    background-color: #1a1a1a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navlast>.box3>.left>img{
+    width: 62px;
+    height: 62px;
+    padding-right: 13px;
+}
+.navlast>.box3>.right>.head{
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: white;
+    margin: 0px;
+}
+.navlast>.box3>.right>.text{
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    font-size: 12px;
+    margin-top: 12px;
+    color: white;
+}
+.navlast{
+    padding-top: 100px;
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+
 }
