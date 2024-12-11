@@ -16,12 +16,20 @@ ol{
     padding: 0px;
 }
 
+ol>a{
+    text-decoration: none;
+    color: #3a3a3a;
+
+}
+
 .icon1>img{
     width: 29px;
     height: 29px;
 }
 
 .nav{
+    position: sticky;
+    top: 10px;
     margin: 45px;
     display: flex;
     flex-direction: row;
@@ -43,8 +51,8 @@ ul.name{
     margin: 0px;
     padding: 0px;
     justify-content: space-around;
-}
 
+}
 div.logo{
     display: flex;
     flex-direction: row;
@@ -209,5 +217,56 @@ div.contact{
     display: flex;
     width: 80%;
     justify-content: space-between;
+
+}
+a:hover{
+    color: #ffb606;
+}
+
+.navmid * button:hover{
+    background-color: #ffb606;
+    color: white;
+}
+
+.navlast>.box1:hover{
+    cursor: pointer;
+    background-color: #ffb606;
+    color: white;
+}
+.navlast>.box2:hover{
+    cursor: pointer;
+    background-color: #ffb606;
+    color: white;
+}.navlast>.box3:hover{
+    cursor: pointer;
+    background-color: #ffb606;
+    color: white;
+}
+
+.navlast>.box1 * a{
+    color: white;
+  text-decoration: none;
+}
+.navlast>.box2 * a{
+    color: white;
+  text-decoration: none;
+}.navlast>.box3 * a{
+    color: white;
+  text-decoration: none;
+}
+
+.navlast>.box1 * a:hover{
+    background-color: #ffb606;
+    color: black;
+
+}
+.navlast>.box2 * a:hover{
+    background-color: #ffb606;
+    color: black;
+
+}
+.navlast>.box3 * a:hover{
+    background-color: #ffb606;
+    color: black;
 
 }

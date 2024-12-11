@@ -1,0 +1,27 @@
+.main{
+    border: 1px solid red;
+    height: 600px;
+    width: 600px;
+    position:sticky;
+    top: 0px;
+
+}
+.box{
+    height: 100px;
+    width: 100px;
+ 
+}
+.box1{
+   background-color: blueviolet; 
+   /* left: 100px; */
+}
+.box2{
+    background-color: rgb(55, 226, 43); 
+  }
+
+.box3{
+   background-color: rgb(196, 50, 17); 
+}
+.box4{
+    background-color: rgb(209, 43, 104); 
+ }
